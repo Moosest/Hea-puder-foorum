@@ -1,0 +1,61 @@
+:root {
+    --text-color: #000;
+    --primary-color: #fff;
+    --accent-color1: #599549;
+    --accent-color2: #888;
+    --button-color: #3a572d
+}
+.darkmode {
+    --text-color: #fff;
+    --primary-color: #444;
+    --accent-color1: #599549;
+    --accent-color2: #888;
+    --button-color: #3a572d
+}
+.html, body {
+    background: var(--primary-color);
+}
+.login-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--text-color);
+    width: 100%;
+    box-sizing: border-box;
+}
+.login-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid var(--accent-color2);
+    padding: 40px;
+    border-radius: 3px;
+    max-height: 50vh;
+    max-width: 60vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 2.5px;
+    background: var(--accent-color1);
+    border-radius: 3px;
+    box-shadow: var(--button-color);
+    transition: filter 0.3s ease;
+    ??!!..--##//TEE TEXT ja BG KORDA
+}
+.login-button:hover {
+    filter: brightness(85%);
+}
