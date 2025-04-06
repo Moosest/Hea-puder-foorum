@@ -53,9 +53,6 @@
     background: var(--accent-color1);
     border-radius: 3px;
     box-shadow: var(--button-color);
-    transition: filter 0.3s ease;
     ??!!..--##//TEE TEXT ja BG KORDA
 }
-.login-button:hover {
-    filter: brightness(85%);
-}
+
