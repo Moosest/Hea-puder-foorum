@@ -24,5 +24,11 @@
     </section>
 </main>
 <div class="topics-container"></div>
+<script>
+    const user = sessionStorage.getItem("username");
+    if (!user) {
+        window.location.href = "../login/login.html";
+    }
+</script>
 </body>
 </html>
