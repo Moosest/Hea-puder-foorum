@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="reg.css">
     <title>Hea Puder foorum</title>
 </head>
@@ -10,11 +11,12 @@
 </header>
 <div class="reg-container">
     <div class="reg-form">
-        <input class="email-input" type="email" placeholder="Email"/>
-        <input class="username-input" type="text" placeholder="Username"/>
-        <input class="password-input" type="password" placeholder="Password"/>
-        <button class="reg-button">Loo konto</button>
+        <input id="email" class="email-input" type="email" placeholder="Email" required />
+        <input id="username" class="username-input" type="text" placeholder="Username" required />
+        <input id="password" class="password-input" type="password" placeholder="Password" required />
+        <button id="register-button" class="reg-button">Loo konto</button>
     </div>
 </div>
+<script src="reg.js"></script>
 </body>
 </html>
