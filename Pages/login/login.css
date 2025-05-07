@@ -43,7 +43,7 @@
     justify-content: center;
     align-items: center;
 }
-.login-button {
+.login-button, .reg-button {
     display: flex;
     justify-content: center;
     align-items: center;

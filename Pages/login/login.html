@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="login.css">
     <title>Hea Puder foorum</title>
 </head>
@@ -10,10 +11,12 @@
 </header>
 <div class="login-container">
     <div class="login-form">
-        <input class="username-input" type="text" placeholder="Username"/>
-        <input class="password-input" type="password" placeholder="Password"/>
-        <button class="login-button" class="">Logi sisse</button>
+        <input id="username" class="username-input" type="text" placeholder="Username" required />
+        <input id="password" class="password-input" type="password" placeholder="Password" required />
+        <button id="login-button" class="login-button">Logi sisse</button>
+        <button id="reg-button" class="reg-button" href="../reg/reg.html">Loo konto</button>
     </div>
-</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+</div>
+<script src="login.js"></script>
 </body>
 </html>
