@@ -1,10 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Postitused - Hea Puder foorum</title>
+    <link rel="stylesheet" href="posts.css">
 </head>
 <body>
-
+<header class="main-header">
+    <h1 class="main-header-title">Hea Puder foorum</h1>
+    <nav class="main-nav">
+        <a href="../mainpage/index.html">Avalehele</a>
+    </nav>
+</header>
+<main class="main-content">
+    <h2 class="post-title">Postitused</h2>
+    <form id="post-form" class="post-form">
+        <textarea id="post-text" placeholder="Postituse sisu" required></textarea>
+        <button type="submit">Lisa postitus</button>
+    </form>
+    <section class="post-section">
+        <div class="posts"></div>
+    </section>
+</main>
+<script src="posts.js"></script>
 </body>
 </html>
